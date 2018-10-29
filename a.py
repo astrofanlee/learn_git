@@ -6,6 +6,7 @@ plt.figure(figsize=(12,9))
 plt.pcolormesh(a)
 plt.xlabel('x label')
 plt.ylabel('y label')
+plt.grid()
 plt.savefig('graph_a.png')
 plt.show()
 
